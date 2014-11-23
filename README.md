@@ -8,11 +8,24 @@ Web client application for Yarn; a tool for sharing stakeholder stories
 ## Developing on the project
 
 - You need [node/npm](http://nodejs.org/) installed on your box, and working in the path
-- You need to install the dependencies for the project - *`npm install` in the project root directory*
-
-- To launch the project, open your shell to the root folder of the project, and run:
+- You need to install the node dependencies for the project
 ```
-./run_dev_server.sh
+    #in the project root directory
+    npm install
+```
+
+- You need to install the bower dependencies for the project
+```
+    #in the project root directory
+    source ./dev_env.sh
+    bower install
+```
+
+###To run the project, launch the brunch server
+```
+#in the project root directory
+source ./dev_env.sh
+brunch w -s
 ```
 
 Pay attention to the prompts to see how to point your browser to the application.
