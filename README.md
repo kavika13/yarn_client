@@ -1,7 +1,9 @@
-client_prototype
-================
+yarn_client
+===========
 
-Base framework for web client proof of concept prototypes
+Web client application for Yarn; a tool for sharing stakeholder stories
+
+(TODO: Add URL here, and more info)
 
 ## Developing on the project
 
@@ -17,6 +19,6 @@ Pay attention to the prompts to see how to point your browser to the application
 
 ===========================
 
-## More Information
+## Bootstrap build for similar applications
 
-- [How the project was setup originally](https://github.com/kavika13/client_prototype/wiki/Original-Project-Setup)
+- [How the project build was setup originally](https://github.com/kavika13/client_prototype)
