@@ -12,7 +12,7 @@ exports.config =
         javascripts:
             joinTo:
                 'javascripts/app.js': /^app/
-                'javascripts/vendor.js': /^vendor/
+                'javascripts/vendor.js': /^(bower_components|vendor)/
                 'test/javascripts/test.js': /^test(\/|\\)(?!vendor)/
                 'test/javascripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
             order:
@@ -20,7 +20,7 @@ exports.config =
 
         stylesheets:
             joinTo:
-                'stylesheets/app.css': /^(app|vendor)/
+                'stylesheets/app.css': /^(app|bower_components|vendor)/
                 'test/stylesheets/test.css': /^test/
             order:
                 before: ['app/styl/normalize.styl']
