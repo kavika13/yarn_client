@@ -1,19 +1,5 @@
 {
   "name": "yarn-client",
   "version": "0.0.1",
-  "private": true,
-  "dependencies": {
-    "polymer": "Polymer/polymer#~0.5.1"
-  },
-  "overrides": {
-    "polymer": {
-      "main": "polymer.js"
-    },
-    "core-component-page": {
-      "main": "core-component-page.html",
-      "dependencies": {
-        "webcomponentsjs": "Polymer/webcomponentsjs#^0.5.0"
-      }
-    }
-  }
+  "private": true
 }
