@@ -21,6 +21,16 @@ Web client application for Yarn; a tool for sharing stakeholder stories
     bower install
 ```
 
+- You need to install the polymer dependencies for the project.
+  Note that this intentionally uses bower a second time
+  due to problems with brunch trying to compile the bower polymer packages
+```
+    #in the project root directory
+    source ./dev_env.sh
+    cd app/assets
+    bower install
+```
+
 ###To run the project, launch the brunch server
 ```
 #in the project root directory
